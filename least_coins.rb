@@ -3,21 +3,21 @@ def least_coins(cents)
   
   quarters = cents/25 
     if quarters == 0 
-      coins [:quarters]=0 
+      coins[:quarters]=0 
     elsif quarters != 0 
-      coins [:quarters]= quarters 
+      coins[:quarters]= quarters 
       cents = cents - quarter * 25 
     end 
   
   dimes = cents/10 
     if dimes == 0 
-      coins [:dimes]= 0 
+      coins[:dimes]= 0 
     elsif dimes != 0 
-    coins [:dimes]= dimes
+    coins[:dimes]= dimes
     cents= cents - dimes *10 
   end 
   
-  nickels = cents/50
+  nickels = cents/5
     if nickels == 0 
       coins [:nickels]
     end 
