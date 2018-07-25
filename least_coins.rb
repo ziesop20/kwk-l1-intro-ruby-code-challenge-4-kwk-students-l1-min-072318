@@ -1,7 +1,2 @@
-#write out your code here
-
 def least_coins(cents)
-
-#Code your answer here!
-
-end
+coins = {:quarters => 0, :nickels => 0, :dimes => 0, :pennies => 0} 
