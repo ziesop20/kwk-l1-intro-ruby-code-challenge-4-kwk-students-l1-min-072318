@@ -1,5 +1,5 @@
 def least_coins(cents)
-  cents = {
+  coins = {
     :quarters => 0, 
     :nickels => 0, 
     :dimes => 0, 
