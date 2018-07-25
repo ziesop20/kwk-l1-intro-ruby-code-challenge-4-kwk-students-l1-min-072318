@@ -40,7 +40,7 @@ def least_coins(cents)
     print coins_used 
   end 
  
-puts 
-coins 
+least_coins(39)
+ 
 
  
