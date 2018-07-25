@@ -8,3 +8,5 @@ def least_coins(cents)
       cents = cents - quarter * 25 
     end 
   end 
+  
+  least_coins(50)
