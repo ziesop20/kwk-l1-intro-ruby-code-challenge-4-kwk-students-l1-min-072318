@@ -4,7 +4,6 @@ def least_coins(cents)
     :nickels => 0, 
     :dimes => 0, 
     :pennies => 0
-    
   }
   
   quarters = cents/25 
