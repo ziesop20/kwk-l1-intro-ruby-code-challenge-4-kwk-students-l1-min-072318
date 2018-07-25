@@ -26,6 +26,9 @@ def least_coins(cents)
     if nickels == 0 
       coins [:nickels]
     end 
+    
+    puts least_coins
+    least_coins 
 end   
   
 least_coins(50)
