@@ -24,11 +24,21 @@ def least_coins(cents)
   
   nickels = cents/5
     if nickels == 0 
-      coins [:nickels]
+      coins[:nickels]
+    elsif nickels != 0 
+      coins[:nickels]= nickels 
+      cents= cents - nickels * 5 
     end 
     
+  pennies = cents 
+    if pennies== 0 
+      coins[:pennies]
+    elsif pennies != 0 
+      coins[:pennies]=pennies 
+      cents= cents-pennies 
+    end 
+  end 
     # puts least_coins
     # least_coins 
-end   
   
 least_coins(50)
