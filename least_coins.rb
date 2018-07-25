@@ -38,8 +38,7 @@ def least_coins(cents)
       cents= cents-pennies 
     end 
   end 
-    # puts least_coins
-    # least_coins 
+ 
   
 coins 
 
