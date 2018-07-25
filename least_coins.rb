@@ -37,7 +37,7 @@ def least_coins(cents)
       coins[:pennies]=pennies 
       cents= cents-pennies 
     end
-    puts coins 
+    print coins 
   end 
  
 least_coins(29)
